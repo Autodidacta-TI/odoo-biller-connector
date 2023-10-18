@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--<data noupdate="1">-->
+
+    <function model="account.tax.group" name="_update_code_core_uy"/>
+    <data>
+        <record id="tax_group_otra_tasa" model="account.tax.group">
+            <field name="name">Otra Tasa</field>
+            <field name="code_uy">4</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_entrega_gratuita" model="account.tax.group">
+            <field name="name">Entrega Gratuita</field>
+            <field name="code_uy">5</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_producto_servicio_no_facturable" model="account.tax.group">
+            <field name="name">Producto o servicio no facturable</field>
+            <field name="code_uy">6</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_producto_servicio_no_facturable_negativo" model="account.tax.group">
+            <field name="name">Producto o servicio no facturable negativo</field>
+            <field name="code_uy">7</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_rebajar_e-remitos_y_e-remitos_exportacion" model="account.tax.group">
+            <field name="name">Ítem a rebajar en e-remitos y en e-remitos de exportación</field>
+            <field name="code_uy">8</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_item_a_anular_en_resguardos" model="account.tax.group">
+            <field name="name">Ítem a anular en resguardos</field>
+            <field name="code_uy">9</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_exportacion_y_asimiladas" model="account.tax.group">
+            <field name="name">Exportación y asimiladas</field>
+            <field name="code_uy">10</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_impuesto_percibido" model="account.tax.group">
+            <field name="name">Impuesto percibido</field>
+            <field name="code_uy">11</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_iva_en_suspenso" model="account.tax.group">
+            <field name="name">IVA en suspenso</field>
+            <field name="code_uy">12</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_item_vendido_no_contribuyente" model="account.tax.group">
+            <field name="name">Ítem vendido no contribuyente</field>
+            <field name="code_uy">13</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_item_vendido_contribuyente_monotributo" model="account.tax.group">
+            <field name="name">Ítem vendido contribuyente monotributo</field>
+            <field name="code_uy">14</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+
+        <record id="tax_group_item_vendido_contribuyente_imeba" model="account.tax.group">
+            <field name="name">Ítem vendido contribuyente IMEBA</field>
+            <field name="code_uy">15</field>
+            <field name="country_id" ref="base.uy"/>
+        </record>
+        
+    </data>
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="account_journal_inherit_biller_form" model="ir.ui.view">
+        <field name="name">account_journal_inherit_biller_form</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
+        <field name="arch" type="xml">
+            <field name='type' position="after">
+                <field name='is_biller'/>
+                <field name='id_suc_biller'/>
+            </field>
+        </field>
+    </record>
+
+</odoo>
